@@ -5,13 +5,13 @@ export default function Cabecalho() {
         <h1>Vite + React / Coded By- PF0670</h1>
         <ul>
           <li>
-            <a href="#">Item - 1</a>
+            <Link to="/">Home</Link>
           </li>
           <li>
-            <a href="#">Item - 2</a>
+          <Link to="/produtos">Produtos</Link>
           </li>
           <li>
-            <a href="#">Item - 3</a>
+          <Link to="/editar/produtos/1">Produto-1</Link>
           </li>
         </ul>
       </header>
